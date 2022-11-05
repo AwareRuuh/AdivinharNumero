@@ -16,9 +16,11 @@ class Main {
         }
         if (usuarioinput < computadorinput) {
         System.out.println("O número sorteado é maior.");
+          System.out.println("");
         }
           if  (usuarioinput > computadorinput){
           System.out.println("O número sorteado é menor.");
+            System.out.println("");
           }
       } while (usuarioinput != computadorinput);
       
